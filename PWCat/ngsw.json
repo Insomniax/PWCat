@@ -1,0 +1,63 @@
+{
+  "configVersion": 1,
+  "index": "/PWCat/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "/PWCat/favicon.ico",
+        "/PWCat/index.html"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "/PWCat/assets/icon-128x128.png",
+        "/PWCat/assets/icon-144x144.png",
+        "/PWCat/assets/icon-152x152.png",
+        "/PWCat/assets/icon-192x192.png",
+        "/PWCat/assets/icon-384x384.png",
+        "/PWCat/assets/icon-512x512.png",
+        "/PWCat/assets/icon-72x72.png",
+        "/PWCat/assets/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/PWCat/assets/icon-128x128.png": "fc84a50c39f530e2e8bae58a31c6e07592886105",
+    "/PWCat/assets/icon-144x144.png": "fcb3fd29e464c22397a7f01d146148ab80fe39b5",
+    "/PWCat/assets/icon-152x152.png": "ac645ab52179a380f3c1ad9730992a9ba62157e1",
+    "/PWCat/assets/icon-192x192.png": "34013e5ee6d57b3fa6035c13071c671e26a851cc",
+    "/PWCat/assets/icon-384x384.png": "4cb22d92f9dde4958648c99a416279350b142a20",
+    "/PWCat/assets/icon-512x512.png": "b266224839a215bfaad7211b5036c51a92c52ac7",
+    "/PWCat/assets/icon-72x72.png": "d8404b805933ac784f4fd4bba7598fb37da3ef12",
+    "/PWCat/assets/icon-96x96.png": "7ab19ec3313534e5eb29aaf1860e61ee2b7686dc",
+    "/PWCat/favicon.ico": "84161b857f5c547e3699ddfbffc6d8d737542e01",
+    "/PWCat/index.html": "cd2e48a35e9b50d413947030ad1fec18f3a20ecb"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*\\.[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^\\/]*__[^\\/]*\\/.*$"
+    }
+  ]
+}
