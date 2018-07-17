@@ -10,7 +10,7 @@ export class ImgCardComponent implements OnInit {
 
   private image: CatImage = {
     message: 'Progressive Web Cat',
-    api: 'https://cataas.com/cat/says/',
+    api: 'https://picsum.photos/100',
     fontsize: 40
   };
 
@@ -23,9 +23,7 @@ export class ImgCardComponent implements OnInit {
   }
 
   generateSrc(): void {
-    this.src = this.image.api + this.image.message +
-      '?size=' + this.image.fontsize +
-      '&ts=' + Date.now();
+    this.src = this.image.api + '&ts=' + Date.now();
   }
 
 }

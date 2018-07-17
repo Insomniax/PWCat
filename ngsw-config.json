@@ -24,7 +24,7 @@
           "/assets/**"
         ],
         "urls": [
-          "https://cataas.com/**"
+          "https://picsum.photos/**"
         ]
       }
     }
